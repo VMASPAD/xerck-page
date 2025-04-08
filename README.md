@@ -1,8 +1,11 @@
+<p align="center">
+
+  <img src="https://github.com/user-attachments/assets/ee15c784-47c4-4ad5-b24d-9191ab0e5a1a" width="200px" >
+</p> 
+
 # Xerck
 
 Accessible and customizable components that you can copy and paste into your apps. Free. Open Source. **Use this to build your own component library**.
-
-![hero](https://portfoliotavm.com/imagevscode/xerck.svg)
 
 ## 🚀 Features
 
