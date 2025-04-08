@@ -36,7 +36,7 @@ style={
       "--ty-3": (Math.random() - 0.5),
       "--tx-4": (Math.random() - 0.5),
       "--ty-4": (Math.random() - 0.5),
-    } as React.CSSProperties
+    }
   } 
 
       >
