@@ -34,7 +34,18 @@ const BentoCard: React.FC<BentoCardProps> = ({
  
 export default function Home() {
   return (
-    <main className="w-screen bg-background h-screen"> 
+    <main className="w-screen bg-background h-screen" style={
+      { 
+        "--tx-1": (Math.random() - 0.5),
+        "--ty-1": (Math.random() - 0.5),
+        "--tx-2": (Math.random() - 0.5),
+        "--ty-2": (Math.random() - 0.5),
+        "--tx-3": (Math.random() - 0.5),
+        "--ty-3": (Math.random() - 0.5),
+        "--tx-4": (Math.random() - 0.5),
+        "--ty-4": (Math.random() - 0.5),
+      } as React.CSSProperties
+    } > 
         <BentoCard 
           colors={["#DBDBDB", "#DBDBDB", "#DBDBDB"]}
           delay={0.4}
